@@ -1,54 +1,104 @@
 *{
     background-color: whitesmoke;
 }
-#main{
-   
-    display: flex;
-    justify-content: space-between;
-    color: rgb(36, 36, 36);
-    font-family: monospace;
-}
-#div-pic{
-    border: 1px solid rgb(140, 136, 136);
-    margin: 4px;
-    margin-top:40px;
-    padding: 10px;
-}
-#div-pic img{
-    width: 500px;
-}
-#description{
-    width: 500px;
-    margin: auto;
-    padding: 30px;
-}
-#description h1{
-    font-size: 40px;
-}
-#description p{
-    font-size: 18px;
-}
+@media (min-width: 1056px) {
+    #main{
 
-#menu ul li{
-   
-    display: inline;
-    margin: 50px;
-}
-#menu ul li a{
-    text-decoration: none;
-    color: rgb(33, 33, 33);
-    font-size: 14px;
-}
-#menu ul li a:hover{
-    text-decoration:underline;
-    color: black;
-}
-#menu{
-   display: flex;
-   white-space: nowrap;
-}
+        display: flex;
+        justify-content: space-between;
+        color: rgb(36, 36, 36);
+        font-family: monospace;
+    }
+    #div-pic{
+        border: 1px solid rgb(140, 136, 136);
+        margin: 4px;
+        margin-top:40px;
+        padding: 10px;
+    }
+    #div-pic img{
+        width: 500px;
+    }
+    #description{
+        width: 500px;
+        margin: auto;
+        padding: 30px;
+    }
+    #description h1{
+        font-size: 40px;
+    }
+    #description p{
+        font-size: 18px;
+    }
+    #menu ul li{
+        display: inline;
+        margin: 50px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        color: rgb(33, 33, 33);
+        font-size: 14px;
+    }
+    #menu ul li a:hover{
+        text-decoration:underline;
+        color: black;
+    }
+    #menu{
+       display: flex;
+       white-space: nowrap;
+    }
+    
 
-#title{
-   
-   
+
+}
+@media (max-width: 1056px){
+
+    #main{
+        justify-content: space-between;
+        color: rgb(36, 36, 36);
+        font-family: monospace;
+    }
+    #div-pic{
+        border: 1px solid rgb(140, 136, 136);
+        margin: 4px;
+        margin-top:40px;
+        padding: 10px;
+    }
+    #div-pic img{
+        width: 100%;
+    }
+    #description{
+        width: 500px;
+        margin: auto;
+        padding: 30px;
+    }
+    #description h1{
+        font-size: 40px;
+      
+    }
+    #description p{
+        font-size: 18px;
+        width: 90%;
+    }
+    #menu{
+        width: 100%;
+      
+    }
+    #menu ul li{
+        display: inline;
+        margin-right: 30px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        color: rgb(33, 33, 33);
+        font-size: 14px;
+    }
+    #menu ul li a:hover{
+        text-decoration:underline;
+        color: black;
+    }
+    #menu{
+       display: flex;
+       white-space: nowrap;
+    }
+    
 }
