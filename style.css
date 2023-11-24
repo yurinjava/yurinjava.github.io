@@ -1,0 +1,44 @@
+*{
+    background-color: whitesmoke;
+}
+#main{
+   
+    display: flex;
+    justify-content: space-between;
+    color: rgb(36, 36, 36);
+    font-family: monospace;
+}
+#div-pic{
+    border: 1px solid rgb(140, 136, 136);
+    margin: 4px;
+    margin-top:40px;
+    padding: 10px;
+}
+#div-pic img{
+    width: 500px;
+}
+#description{
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+#description h1{
+    font-size: 40px;
+}
+#description p{
+    font-size: 18px;
+}
+
+#menu ul li{
+    display: inline;
+    margin: 50px;
+}
+#menu{
+   display: flex;
+   white-space: nowrap;
+}
+
+#title{
+   
+   
+}
