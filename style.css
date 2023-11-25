@@ -46,7 +46,9 @@
        display: flex;
        white-space: nowrap;
     }
-    
+    #img-icon{
+        display: none;
+    }
 
 
 }
@@ -64,10 +66,10 @@
         padding: 10px;
     }
     #div-pic img{
-        width: 90%;
+        width: 100%;
     }
     #description{
-        width: 500px;
+       
         margin: auto;
         padding: 30px;
     }
@@ -81,16 +83,25 @@
     }
     #menu{
         width: 100%;
-      
+        
+    }
+    #menu ul{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
     }
     #menu ul li{
+        
         display: inline;
-        margin-right: 30px;
+        margin-left: 0px;
     }
     #menu ul li a{
+       
+      
         text-decoration: none;
         color: rgb(33, 33, 33);
-        font-size: 14px;
+       font-size: 20px;
     }
     #menu ul li a:hover{
         text-decoration:underline;
@@ -99,6 +110,16 @@
     #menu{
        display: flex;
        white-space: nowrap;
+    }
+    #menu ul span{
+        display: none;
+    }
+    #title{
+        margin-top: 6px;
+    }
+    #img-icon{
+        width: 40px;
+        margin-right: 20px;
     }
     
 }
