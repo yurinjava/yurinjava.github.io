@@ -10,7 +10,7 @@
         font-family: monospace;
     }
     #div-pic{
-        border: 1px solid rgb(140, 136, 136);
+    
         margin: 4px;
         margin-top:40px;
         padding: 10px;
@@ -60,7 +60,6 @@
         font-family: monospace;
     }
     #div-pic{
-        border: 1px solid rgb(140, 136, 136);
         margin: 4px;
         margin-top:40px;
         padding: 10px;
